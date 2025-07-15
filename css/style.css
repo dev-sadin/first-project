@@ -1,0 +1,28 @@
+@font-face {
+    font-family: for-all-text;
+    src: url('../fonts/fonts\ for\ p.ttf');
+}
+
+@font-face {
+    font-family: for-h1-text;
+    src: url('../fonts/fonts\ for\ heading.ttf');
+}
+
+* {
+    font-family: for-all-text;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: for-h1-text;
+}
+
+body {
+    margin: 0;
+}
+
+/* head section start  */

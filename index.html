@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/61d5651323.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <main>
+        <div>
+            <img src="images/egg-polao.png" class="w-full h-80 object-cover" alt="">
+        </div>
+        <!-- johndoe section  -->
+
+        <div class="px-5 md:py-9 flex md:items-start gap-10 flex-col md:justify-start md:flex-row ">
+
+            <div class="relative flex items-center justify-center mt-[-50px] md:mt-0">
+                <p
+                    class="border-4 border-x-orange-600 border-y-gray-500 h-35 w-35 rounded-full flex justify-center items-center text-4xl font-medium bg-linear-to-r from-blue-500 to-sky-500 text-transparent bg-clip-text">
+                    JD
+                </p>
+                <p class="border-2 border-x-orange-600 border-y-pink-600 w-fit px-3 rounded-2xl bg-linear-to-r from-blue-500 to-sky-500
+                     text-white absolute md:left-11 md:top-30 left- bottom-[-8px]">
+                    Pro</p>
+            </div>
+
+            <div class="flex flex-col gap-2 justify-center items-center md:items-start md:justify-start ">
+                <h1 class="font-semibold text-3xl">Jhon Doe</h1>
+                <p class="text-lg text-gray-500">@Jhondoe</p>
+                <p>passionate home cook and food enthusiast.</p>
+
+                <div class="flex gap-2 md:flex-row  flex-col md:justify-center md:items-center">
+                    <p class="text-gray-500">
+                        <i class="fa-solid fa-location-dot text-black"></i>
+                        san francisco,CA
+                    </p>
+                    <p class="bg-linear-to-r from-blue-500 to-sky-500 text-transparent bg-clip-text">
+                        <i class="fa-solid fa-link"></i>
+                        www.johndoe.com
+                    </p>
+                    <p class="text-gray-500">
+                        <i class="fa-solid fa-calendar-days text-black"></i>
+                        joined April 05-2025
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <!-- followers sectiohn -->
+
+        <div class="md:px-5 grid grid-cols-2 md:grid-cols-4 md:gap-5 pt-8 gap-2 px-10">
+            <div
+                class="flex flex-col justify-center items-center px-10 py-6 border border-gray-300 rounded-lg bg-linear-to-r from-blue-100 to-sky-100">
+                <i
+                    class="fa-solid fa-book-open-reader bg-linear-to-r from-[#D60659] to-[#FA5840] text-transparent bg-clip-text text-xl"></i>
+                <h1 class="text-3xl">25</h1>
+                <p class="text-sm text-gray-600">Recipes</p>
+            </div>
+
+            <div
+                class="flex flex-col justify-center items-center px-10 py-6 border border-gray-300 rounded-lg bg-linear-to-r from-blue-100 to-sky-100">
+                <i
+                    class="fa-solid fa-user-plus bg-linear-to-r from-[#D60659] to-[#FA5840] text-transparent bg-clip-text text-xl"></i>
+                <h1 class="text-3xl">4,565</h1>
+                <p class="text-sm text-gray-600"> Followers</p>
+
+
+            </div>
+
+            <div class=" flex flex-col justify-center items-center px-10 py-6 border border-gray-300 rounded-lg
+                    bg-linear-to-r from-blue-100 to-sky-100">
+                <i
+                    class="fa-solid fa-id-badge bg-linear-to-r from-[#D60659] to-[#FA5840] text-transparent bg-clip-text text-xl"></i>
+                <h1 class="text-3xl">3,264</h1>
+                <p class="text-sm text-gray-600">Following</p>
+            </div>
+
+            <div class=" flex flex-col justify-center items-center px-10 py-6 border border-gray-300 rounded-lg
+                    bg-linear-to-r from-blue-100 to-sky-100">
+                <i
+                    class="fa-regular fa-heart bg-linear-to-r from-[#D60659] to-[#FA5840] text-transparent bg-clip-text text-xl"></i>
+                <h1 class="text-3xl">879</h1>
+                <p class="text-sm text-gray-600">Likes</p>
+            </div>
+
+        </div>
+
+        <!-- searchbar section  -->
+
+        <div class="flex justify-between px-9 py-7 md:px-5">
+            <div>
+                <form action="" class="relative">
+                    <input type="search" value="" placeholder="search by title,ingredients or content"
+                        class="border border-gray-500 md:w-120 pl-12.5 md:pl-16 py-2 md:text-xl rounded-2xl w-60  text-[14px] ">
+                    <i class="fa-solid fa-magnifying-glass absolute top-[14px] left-4 md:text-2xl"></i>
+
+                </form>
+            </div>
+
+            <div class="flex items-center"><i class="fa-solid fa-bars md:text-2xl text-lg"></i></div>
+
+        </div>
+
+        <!-- jphm recipes  -->
+        <div class="grid md:grid-cols-2 xl:grid-cols-4 md:gap-8 px-[7%] m-0 md:px-[2%]">
+
+
+            <div class="flex flex-col gap-2 border border-gray-500 py-6 px-7 rounded-2xl mb-15 md:mb-5">
+                <div>
+                    <img src="images/egg-polao.png" alt="food" class=" rounded-lg m-auto w-full">
+                </div>
+
+                <div class="flex justify-between ">
+                    <h2 class="bg-linear-to-r from-[#D60659] to-[#FA5840] text-transparent bg-clip-text font-bold">Easy
+                    </h2>
+                    <div class="flex items-center gap-2">
+                        <i
+                            class="fa-solid fa-star bg-linear-to-r from-[#D60659] to-[#FA5840] text-transparent bg-clip-text"></i>
+                        <p>4.5</p>
+                        <span>(120)</span>
+                    </div>
+                </div>
+
+                <div>
+                    <h1 class="font-extrabold text-xl">Boiled egg and chiken biryani</h1>
+                </div>
+
+                <div class="flex gap-2 pt-1">
+                    <p
+                        class="px-4 py-1 border border-orange-600 bg-linear-to-r from-[#D60659] to-[#FA5840] text-transparent bg-clip-text rounded-2xl xl:px-1 xl:py-0 xl:flex items-center">
+                        Indian</p>
+                    <p
+                        class="px-4 py-1 border border-orange-600 bg-linear-to-r from-[#D60659] to-[#FA5840] text-transparent bg-clip-text rounded-2xl xl:px-1 xl:py-0 xl:flex items-center">
+                        lunch</p>
+                    <p
+                        class="px-4 py-1 border border-orange-600 bg-linear-to-r from-[#D60659] to-[#FA5840] text-transparent bg-clip-text rounded-2xl xl:px-1 xl:py-0 xl:flex items-center">
+                        Vegetarian</p>
+                </div>
+
+                <div>
+                    <p class="text-gray-500 ">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. At,
+                        repellendu seiusdu cimus veniam.</p>
+                </div>
+
+                <div class="flex gap-4 xl:text-[12px]">
+                    <p class="px-3 bg-linear-to-r from-[#D60659] to-[#FA5840] rounded-2xl text-white">calories 580kacl
+                    </p>
+                    <p class="px-3 bg-[#FEF0F8] text-[#EF1185] rounded-xl">carbs 50gm</p>
+                </div>
+
+                <div class="flex gap-2">
+                    <p class="px-1 bg-[#FEF0F8] text-[#EF1185] rounded-xl">Protein 50g</p>
+                    <p class="px-1 bg-[#FEF0F8] text-[#EF1185] rounded-xl">Fats 50g</p>
+                    <p class="px-1 bg-[#FEF0F8] text-[#EF1185] rounded-xl">Sugar 50gm</p>
+                </div>
+
+                <div class="flex gap-4">
+                    <p class="px-3 bg-[#FEF0F8] text-[#EF1185] rounded-xl">Salt 50gm</p>
+                    <p class="px-3 bg-[#FEF0F8] text-[#EF1185] rounded-xl">Energy 50gm</p>
+                </div>
+            </div>
+
+            <div class="flex flex-col gap-2 border border-gray-500 py-6 px-7 rounded-2xl mb-15 md:mb-5">
+                <div>
+                    <img src="images/egg-polao.png" alt="food" class=" rounded-lg m-auto w-full ">
+                </div>
+
+                <div class="flex justify-between ">
+                    <h2 class="bg-linear-to-r from-[#D60659] to-[#FA5840] text-transparent bg-clip-text font-bold">Easy
+                    </h2>
+                    <div class="flex items-center gap-2">
+                        <i
+                            class="fa-solid fa-star bg-linear-to-r from-[#D60659] to-[#FA5840] text-transparent bg-clip-text"></i>
+                        <p>4.5</p>
+                        <span>(120)</span>
+                    </div>
+                </div>
+
+                <div>
+                    <h1 class="font-extrabold text-xl">Boiled egg and chiken biryani</h1>
+                </div>
+
+                <div class="flex gap-2 pt-1">
+                    <p
+                        class="px-4 py-1 border border-orange-600 bg-linear-to-r from-[#D60659] to-[#FA5840] text-transparent bg-clip-text rounded-2xl xl:px-1 xl:py-0 xl:flex items-center">
+                        Indian</p>
+                    <p
+                        class="px-4 py-1 border border-orange-600 bg-linear-to-r from-[#D60659] to-[#FA5840] text-transparent bg-clip-text rounded-2xl xl:px-1 xl:py-0 xl:flex items-center">
+                        lunch</p>
+                    <p
+                        class="px-4 py-1 border border-orange-600 bg-linear-to-r from-[#D60659] to-[#FA5840] text-transparent bg-clip-text rounded-2xl xl:px-1 xl:py-0 xl:flex items-center">
+                        Vegetarian</p>
+                </div>
+
+                <div>
+                    <p class="text-gray-500 ">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. At,
+                        repellendu seiusdu cimus veniam.</p>
+                </div>
+
+                <div class="flex gap-4">
+                    <p class="px-3 bg-linear-to-r from-[#D60659] to-[#FA5840] rounded-2xl text-white">calories 580kacl
+                    </p>
+                    <p class="px-3 bg-[#FEF0F8] text-[#EF1185] rounded-xl">carbs 50gm</p>
+                </div>
+
+                <div class="flex gap-2">
+                    <p class="px-1 bg-[#FEF0F8] text-[#EF1185] rounded-xl">Protein 50g</p>
+                    <p class="px-1 bg-[#FEF0F8] text-[#EF1185] rounded-xl">Fats 50g</p>
+                    <p class="px-1 bg-[#FEF0F8] text-[#EF1185] rounded-xl">Sugar 50gm</p>
+                </div>
+
+                <div class="flex gap-4">
+                    <p class="px-3 bg-[#FEF0F8] text-[#EF1185] rounded-xl">Salt 50gm</p>
+                    <p class="px-3 bg-[#FEF0F8] text-[#EF1185] rounded-xl">Energy 50gm</p>
+                </div>
+            </div>
+
+
+            <div class="flex flex-col gap-2 border border-gray-500 py-6 px-7 rounded-2xl mb-15 md:mb-5">
+                <div>
+                    <img src="images/egg-polao.png" alt="food" class=" rounded-lg m-auto  w-full">
+                </div>
+
+                <div class="flex justify-between ">
+                    <h2 class="bg-linear-to-r from-[#D60659] to-[#FA5840] text-transparent bg-clip-text font-bold">Easy
+                    </h2>
+                    <div class="flex items-center gap-2">
+                        <i
+                            class="fa-solid fa-star bg-linear-to-r from-[#D60659] to-[#FA5840] text-transparent bg-clip-text"></i>
+                        <p>4.5</p>
+                        <span>(120)</span>
+                    </div>
+                </div>
+
+                <div>
+                    <h1 class="font-extrabold text-xl">Boiled egg and chiken biryani</h1>
+                </div>
+
+                <div class="flex gap-2 pt-1">
+                    <p
+                        class="px-4 py-1 border border-orange-600 bg-linear-to-r from-[#D60659] to-[#FA5840] text-transparent bg-clip-text rounded-2xl xl:px-1 xl:py-0 xl:flex items-center">
+                        Indian</p>
+                    <p
+                        class="px-4 py-1 border border-orange-600 bg-linear-to-r from-[#D60659] to-[#FA5840] text-transparent bg-clip-text rounded-2xl xl:px-1 xl:py-0 xl:flex items-center">
+                        lunch</p>
+                    <p
+                        class="px-4 py-1 border border-orange-600 bg-linear-to-r from-[#D60659] to-[#FA5840] text-transparent bg-clip-text rounded-2xl xl:px-1 xl:py-0 xl:flex items-center">
+                        Vegetarian</p>
+                </div>
+
+                <div>
+                    <p class="text-gray-500 ">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. At,
+                        repellendu seiusdu cimus veniam.</p>
+                </div>
+
+                <div class="flex gap-4">
+                    <p class="px-3 bg-linear-to-r from-[#D60659] to-[#FA5840] rounded-2xl text-white">calories 580kacl
+                    </p>
+                    <p class="px-3 bg-[#FEF0F8] text-[#EF1185] rounded-xl">carbs 50gm</p>
+                </div>
+
+                <div class="flex gap-2">
+                    <p class="px-1 bg-[#FEF0F8] text-[#EF1185] rounded-xl">Protein 50g</p>
+                    <p class="px-1 bg-[#FEF0F8] text-[#EF1185] rounded-xl">Fats 50g</p>
+                    <p class="px-1 bg-[#FEF0F8] text-[#EF1185] rounded-xl">Sugar 50gm</p>
+                </div>
+
+                <div class="flex gap-4">
+                    <p class="px-3 bg-[#FEF0F8] text-[#EF1185] rounded-xl">Salt 50gm</p>
+                    <p class="px-3 bg-[#FEF0F8] text-[#EF1185] rounded-xl">Energy 50gm</p>
+                </div>
+            </div>
+
+
+            <div class="flex flex-col gap-2 border border-gray-500 py-6 px-7 rounded-2xl mb-15 md:mb-5">
+                <div>
+                    <img src="images/egg-polao.png" alt="food" class=" rounded-lg m-auto   w-full">
+                </div>
+
+                <div class="flex justify-between ">
+                    <h2 class="bg-linear-to-r from-[#D60659] to-[#FA5840] text-transparent bg-clip-text font-bold">Easy
+                    </h2>
+                    <div class="flex items-center gap-2">
+                        <i
+                            class="fa-solid fa-star bg-linear-to-r from-[#D60659] to-[#FA5840] text-transparent bg-clip-text"></i>
+                        <p>4.5</p>
+                        <span>(120)</span>
+                    </div>
+                </div>
+
+                <div>
+                    <h1 class="font-extrabold text-xl">Boiled egg and chiken biryani</h1>
+                </div>
+
+                <div class="flex gap-2 pt-1">
+                    <p
+                        class="px-4 py-1 border border-orange-600 bg-linear-to-r from-[#D60659] to-[#FA5840] text-transparent bg-clip-text rounded-2xl xl:px-1 xl:py-0 xl:flex items-center">
+                        Indian</p>
+                    <p
+                        class="px-4 py-1 border border-orange-600 bg-linear-to-r from-[#D60659] to-[#FA5840] text-transparent bg-clip-text rounded-2xl xl:px-1 xl:py-0 xl:flex items-center">
+                        lunch</p>
+                    <p
+                        class="px-4 py-1 border border-orange-600 bg-linear-to-r from-[#D60659] to-[#FA5840] text-transparent bg-clip-text rounded-2xl xl:px-1 xl:py-0 xl:flex items-center">
+                        Vegetarian</p>
+                </div>
+
+                <div>
+                    <p class="text-gray-500 ">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. At,
+                        repellendu seiusdu cimus veniam.</p>
+                </div>
+
+                <div class="flex gap-4">
+                    <p class="px-3 bg-linear-to-r from-[#D60659] to-[#FA5840] rounded-2xl text-white">calories 580kacl
+                    </p>
+                    <p class="px-3 bg-[#FEF0F8] text-[#EF1185] rounded-xl">carbs 50gm</p>
+                </div>
+
+                <div class="flex gap-2">
+                    <p class="px-1 bg-[#FEF0F8] text-[#EF1185] rounded-xl">Protein 50g</p>
+                    <p class="px-1 bg-[#FEF0F8] text-[#EF1185] rounded-xl">Fats 50g</p>
+                    <p class="px-1 bg-[#FEF0F8] text-[#EF1185] rounded-xl">Sugar 50gm</p>
+                </div>
+
+                <div class="flex gap-4">
+                    <p class="px-3 bg-[#FEF0F8] text-[#EF1185] rounded-xl">Salt 50gm</p>
+                    <p class="px-3 bg-[#FEF0F8] text-[#EF1185] rounded-xl">Energy 50gm</p>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <div class="backdrop-blur-2xl px-[1%] py-[3%] flex justify-center bg-green-800 ">
+        <div
+            class="bg-white lg:w-[1300px] sm:w-[500px] px-5 flex flex-col border border-gray-500 gap-1 py-6 rounded-sm">
+            <div>
+                <div class="flex justify-between items-center ">
+                    <p
+                        class="bg-linear-to-r from-[#D60659] to-[#FA5840] text-transparent bg-clip-text font-semibold text-l">
+                        Update
+                        Profile
+                    </p>
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <p class="text-gray-400">Update your profile information</p>
+            </div>
+
+            <div>
+                <section class="">
+                    <form action="" class="flex flex-col">
+                        <label for="">Full Name</label>
+                        <input type="name" placeholder="Enter your name" class="border border-gray-400 rounded-lg">
+                    </form>
+                </section>
+            </div>
+
+            <div>
+                <section class="">
+                    <form action="" class="flex flex-col">
+                        <label for="">username</label>
+                        <input type="name" placeholder="johnde" class="border border-gray-400 rounded-lg">
+                    </form>
+                </section>
+            </div>
+
+            <div>
+                <section class="">
+                    <form action="" class="flex flex-col">
+                        <label for="">About me</label>
+                        <input type="name" placeholder="Passionate home cook and food enthusiast"
+                            class="border border-gray-400 rounded-lg py-2">
+                    </form>
+                </section>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+</body>
+
+</html>
